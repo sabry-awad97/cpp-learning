@@ -2,7 +2,12 @@
 
 int main()
 {
-    std::cout << "Hello";
-    std::cout << " world";
-    std::cout << "!";
+    std::string fullName;
+    std::cout
+        << "Type your fullname "
+        << "\n";
+
+    std::getline(std::cin, fullName);
+
+    std::cout << "Name: " << fullName << std::endl;
 }
