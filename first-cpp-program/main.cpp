@@ -1,13 +1,7 @@
-#include <iostream>
+#include <Windows.h>
 
 int main()
 {
-    std::string fullName;
-    std::cout
-        << "Type your fullname "
-        << "\n";
-
-    std::getline(std::cin, fullName);
-
-    std::cout << "Name: " << fullName << std::endl;
+    SetCursorPos(200, 200);
+    return 0;
 }
